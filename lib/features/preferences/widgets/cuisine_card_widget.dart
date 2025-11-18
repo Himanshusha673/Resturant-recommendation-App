@@ -97,8 +97,8 @@ class CuisineCard extends StatelessWidget {
   Widget _buildCircleImage() {
     return ClipOval(
       child: Container(
-        width: 100,
-        height: 100,
+        width: 110,
+        height: 110,
         color: Colors.white.withOpacity(0.1),
         child: Image.asset(
           emoji,

@@ -1,45 +1,46 @@
 import 'package:flutter/material.dart';
-import '../models/restaurant.dart';
-import '../models/menu_item.dart';
-import '../widgets/menu_item_card.dart';
+import 'package:resturant_recommendation/features/menu/models/menu_item_model.dart';
+import 'package:resturant_recommendation/features/menu/widgets/menu_item_card_widget.dart';
+import 'package:resturant_recommendation/features/restaurants/models/restaurant_model.dart';
 
-class MenuRecommendationScreen extends StatefulWidget {
-  final Restaurant restaurant;
 
-  const MenuRecommendationScreen({
+class MenuScreen extends StatefulWidget {
+  final RestaurantModel restaurant;
+
+  const MenuScreen({
     super.key,
     required this.restaurant,
   });
 
   @override
-  State<MenuRecommendationScreen> createState() => _MenuRecommendationScreenState();
+  State<MenuScreen> createState() => _MenuScreenState();
 }
 
-class _MenuRecommendationScreenState extends State<MenuRecommendationScreen>
+class _MenuScreenState extends State<MenuScreen>
     with SingleTickerProviderStateMixin {
   late TabController _tabController;
 
-  final List<MenuItem> _menuItems = [
-    MenuItem(
+  final List<MenuItemModel> _menuItems = [
+    MenuItemModel(
       name: 'Veggie Fajita Bowl',
       description: 'Rice, black beans, fajita vegetables, guacamole, anc',
       price: 10.49,
       imageUrl: 'https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=400',
-      tags: ['Vegan', 'Gluten Free'],
+      tags: ['Vegan', 'Gluten Free'], id: '',
     ),
-    MenuItem(
+    MenuItemModel(
       name: 'Tofu Tacos',
       description: 'Tacos with marinated tofu and various toppings',
       price: 9.99,
       imageUrl: 'https://images.unsplash.com/photo-1551504734-5ee1c4a1479b?w=400',
-      tags: ['Vegan'],
+      tags: ['Vegan'], id: '',
     ),
-    MenuItem(
+    MenuItemModel(
       name: 'Chicken Burrito',
       description: 'Grilled chicken, rice, beans, cheese, and salsa wrapped in a flour tortilla',
       price: 12.99,
       imageUrl: 'https://images.unsplash.com/photo-1626700051175-6818013e1d4f?w=400',
-      tags: ['Halal'],
+      tags: ['Halal'], id: '',
     ),
   ];
 

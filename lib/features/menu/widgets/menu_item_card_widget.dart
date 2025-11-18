@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
-import '../models/menu_item.dart';
+import 'package:resturant_recommendation/features/menu/models/menu_item_model.dart';
+
 
 class MenuItemCard extends StatelessWidget {
-  final MenuItem menuItem;
+  final MenuItemModel menuItem;
 
   const MenuItemCard({
     super.key,
