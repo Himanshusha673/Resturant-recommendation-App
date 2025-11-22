@@ -50,14 +50,14 @@ Includes:
 Dietary tags
 Dish name, description, price, rating
 Model-driven dish filtering based on user preferences
+<img width="250" alt="Screenshot_1763809930" src="https://github.com/user-attachments/assets/8ecfce1c-20b8-4b33-897f-f35db3b6349f" />
 
 
 
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/49c196f6-95c9-4a8e-b861-34af10d417a9" width="250" alt="Recommended Dishes"/>
-</p>
+
 
 ℹ️ 5. Restaurant Detail Bottom Sheet
+
 
 Shows quick dish insights from menu
 Built using reusable widgets for better scalability
