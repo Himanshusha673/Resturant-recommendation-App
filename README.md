@@ -50,8 +50,9 @@ Includes:
 Dietary tags
 Dish name, description, price, rating
 Model-driven dish filtering based on user preferences
+<p align="center">
 <img width="250" alt="Screenshot_1763809930" src="https://github.com/user-attachments/assets/8ecfce1c-20b8-4b33-897f-f35db3b6349f" />
-
+</p>
 
 
 
