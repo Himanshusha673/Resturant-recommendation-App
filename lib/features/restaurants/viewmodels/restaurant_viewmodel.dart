@@ -92,17 +92,17 @@ class RestaurantViewModel extends ChangeNotifier {
     notifyListeners();
   }
 
-  /// Sort restaurants by distance
-  void sortByDistance() {
-    _filteredRestaurants.sort((a, b) => a.distance.compareTo(b.distance));
-    notifyListeners();
-  }
+  // /// Sort restaurants by distance
+  // void sortByDistance() {
+  //   _filteredRestaurants.sort((a, b) => a.distance.compareTo(b.distance));
+  //   notifyListeners();
+  // }
 
-  /// Sort restaurants by rating
-  void sortByRating() {
-    _filteredRestaurants.sort((a, b) => b.rating.compareTo(a.rating));
-    notifyListeners();
-  }
+  // /// Sort restaurants by rating
+  // void sortByRating() {
+  //   _filteredRestaurants.sort((a, b) => b.rating.compareTo(a.rating));
+  //   notifyListeners();
+  // }
 
   /// Get restaurant by ID
   RestaurantModel? getRestaurantById(String id) {
