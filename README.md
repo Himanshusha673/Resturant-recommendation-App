@@ -67,16 +67,4 @@ Built using reusable widgets for better scalability
   <img src="https://github.com/user-attachments/assets/fc7ee306-c575-463f-887d-922995e26fb7" width="250" alt="Detail Bottom Sheet"/>
 </p>
 
-🧠 Core Features
-FeatureDescriptionPersonalized PreferencesUser-selected cuisines & diet mapped to recommendationsSmart FilteringRestaurant list updates dynamically based on preferencesModular WidgetsReusable components like RestaurantCard, RatingStarWidgetProvider State ManagementClean data handling, selection retention, and UI updatesScalable ArchitectureOrganized folder structure for maintainabilityResponsive DesignAdjusts across different screen sizes & devices
 
-🛠 Architecture Overview
-lib/
-├── models/              # Data models (Restaurant, Dish, Cuisine)
-├── screens/             # All app screens
-├── widgets/             # Reusable UI components
-├── providers/           # State management with Provider
-├── utils/               # Constants, helpers, themes
-└── main.dart           # App entry point
-
-ages are now displayed at width="250" (or "200" in the collapsible section) which makes them smaller and more standard for GitHub README files. This keeps them readable while not taking up too much vertical space. You can adjust the width values (150-300 are common ranges) based on your preference.
